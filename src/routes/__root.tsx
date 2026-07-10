@@ -81,21 +81,25 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Youth Career Launchpad Assistant — AI Career Companion" },
+      { title: "Dashboard — Youth Career Launchpad Assistant" },
       {
         name: "description",
         content:
-          "AI-powered workplace assistant for South African youth: generate professional emails, plan your job search, and get career guidance.",
+          "Your AI career companion — generate emails, plans, and get workplace guidance in one place.",
       },
       { name: "author", content: "Youth Career Launchpad" },
-      { property: "og:title", content: "Youth Career Launchpad Assistant" },
+      { property: "og:title", content: "Dashboard — Youth Career Launchpad Assistant" },
       {
         property: "og:description",
         content:
-          "AI tools that help South African youth prepare for employment — emails, plans, and career chat.",
+          "Your AI career companion — generate emails, plans, and get workplace guidance in one place.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Dashboard — Youth Career Launchpad Assistant" },
+      { name: "twitter:description", content: "Your AI career companion — generate emails, plans, and get workplace guidance in one place." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7cc78570-474a-44d9-886c-4f895ea05987/id-preview-cad211bf--26df5568-9259-46dc-b548-a6946d7fdd21.lovable.app-1783652455014.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7cc78570-474a-44d9-886c-4f895ea05987/id-preview-cad211bf--26df5568-9259-46dc-b548-a6946d7fdd21.lovable.app-1783652455014.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
